@@ -15,7 +15,9 @@ This project demonstrates a production-ready approach to building smart TV inter
 
 * **Cinematic Compose TV UI:** 100% native Jetpack Compose UI optimized for D-pad navigation. Features custom focus states, slick animations, and scalable vector graphics drawn directly on the `Canvas`.
 * **MVVM Architecture:** Clean separation of concerns using ViewModels, `StateFlow`, and stateless composable UI functions.
-* **Advanced ExoPlayer Integration:** * Supports Live HLS (`.m3u8`) and VOD streams.
+* **Advanced ExoPlayer Integration:** * Supports Live HLS (`.m3u8`) and VOD streams. Currently utilizing the following test streams:
+    * **Live (HLS):** `https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8`
+    * **VOD (MP4):** `https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4`
   * Completely custom player overlay (playback controls, seek bar, settings).
   * Seamless "Match Over" overlay with "Up Next" recommendations.
   * Graceful playback error handling with mock DRM error screens.
